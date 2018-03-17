@@ -120,4 +120,5 @@ $('.clearRadio').on('click tap', function (e) {
 
 (function(){
     //the new document ready.
+    console.log('new document ready ready.')
 })($,window)
