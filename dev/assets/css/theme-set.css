@@ -1,0 +1,108 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 12px;
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+    margin-top: 50px;
+    font-family: "Lato", Arial, sans;
+
+    line-height: 1.5;
+    color: #424242;
+    height: 100%;
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+header {
+    background: #c43926;
+    height: 50px;
+}
+
+#mainnav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: bold;
+}
+
+a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:focus, a.navbar-brand:active {
+    color: #fff !important;
+}
+
+.navbar-brand, a.navbar-brand {
+    font-size: 16px;
+    font-family: 'Lato', Arial, sans;
+    font-weight: normal;
+    line-height: 22px;
+    height: 50px;
+    background: #c43926;
+    color: #fffff !important;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    background-color: #c43926;
+    color: #ffffff;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #212121;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 15px;
+}
+
+.container .text-muted {
+    margin: 15px 0;
+}
+
+.footer > .container {
+    background-color: #212121;
+    padding: 0px 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.spellchecker-incorrectwords {
+    display: block;
+    border: 1px dotted red;
+    padding: 2px;
+    width: 302px;
+}
+
+/*
+a:hover, a:active, a:focus {
+    -webkit-transform: translateY(10px);
+    -moz-transform: -moz-translateY(10px);
+    -ms-transform: -ms-translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    -webkit-transition: transform 0.3s, opacity 0.2s;
+}
+*/

@@ -1,0 +1,38 @@
+{
+  "authors": [
+    {
+      "name": "Cherine Verhage van Soest",
+      "email": "cherine@verhagevansoest.nl",
+      "homepage": "http://verhagevansoest.nl",
+      "role": "Designer & Product Owner"
+    },
+    {
+      "name": "David Verhage",
+      "email": "dtverhage@gmail.com",
+      "homepage": "http://zobijzonder.com",
+      "role": "Developer"
+    }
+  ],
+  "description": "Elapsus",
+  "name": "ZoBijzonder/elapsus",
+  "require": {
+    "php": ">=5.3",
+    "cocur/slugify": "^1.3",
+    "mpdf/mpdf": "dev-master",
+    "fzaninotto/faker": "~1.4",
+    "mockery/mockery": "0.9.*",
+    "symfony/css-selector": "2.8.*|3.0.*",
+    "blockchain/blockchain": "1.*",
+    "symfony/dom-crawler": "2.8.*|3.0.*",
+    "phpoffice/phpword": "*",
+    "phpoffice/phpexcel": "*",
+    "chriskacerguis/codeigniter-restserver": "^3.0",
+    "52software/edex": "^1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "MY\\": "application/core/",
+      "app\\": "application/controllers/"
+    }
+  }
+}
