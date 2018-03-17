@@ -117,3 +117,7 @@ $('.clearRadio').on('click tap', function (e) {
     });
     e.preventDefault();
 });
+
+(function(){
+    //the new document ready.
+})($,window)
