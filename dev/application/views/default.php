@@ -180,7 +180,6 @@ if ($results->num_rows() > 0) {
     <div class="container-fluid" style="margin-top:65px; padding-bottom:15px;">
         <?php echo $content; ?>
     </div>
-
 </div>
 <a href="#" id="back-to-top" class="btn btn-warning btn-sm">
     <span class="glyphicon glyphicon-arrow-up"></span>
